@@ -1,11 +1,11 @@
-// app/page.tsx
-import { Button, Card, CardBody, CardHeader, Input, Chip } from '../lib/nextui'
+  import { Button } from 'antd';
+
+
 
 export default function Home() {
   return (
    <>
-   <Button>Click me</Button>
-   <button>Click me2</button>
+   <Button type="primary" size="large">Click me</Button>
    </>
   )
 }
